@@ -10,8 +10,15 @@ body{
 button{
     cursor: pointer;
 }
-.head{
+header{
     position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99999999999999;
+    padding-bottom: 20px;
+}
+.head{
+    position: ;
     text-align: center;
     max-width: 80%;
     top: 0;
@@ -390,4 +397,311 @@ footer b{
 }
 .socielLogo p{
     font-family: roboto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .head{
+        max-width: 100%;
+        top: 0;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 20px;
+        margin-left: 0px;
+        
+    }
+
+    nav{
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    
+    }
+    nav ul{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    nav ul li{
+        font-size: 12px;
+    }
+    .btn-an{
+        font-size: 12px;
+    }
+    .btn-en{
+        font-size: 12px;
+    }
+
+    .influencer{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .influ{
+        padding: 0 10px;
+    }
+    .influ h1{
+        font-size: 20px;
+    }
+    .influ p{
+        font-family: "Roboto";
+        font-size: 12px;
+    }
+    .influ-img img{
+        width: 90%;
+    }
+    .label{
+        text-align: center;
+    }
+    .label img{
+        width: 90%;
+    }
+    .hire{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 70px;
+        align-items: center;
+        position: relative;
+    }
+    #hire, #hireEn{
+        background-color: #4d9efc;
+        padding: 70 10;
+    }
+    .milky{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .hireMe{
+        gap: 50px;
+    }
+
+    #high h3{
+        font-family: "poppins";
+        font-size: 12px;
+    }
+    .star{
+        width: 80%;
+    }
+    #hire p{
+        font-size: 12px;
+    }
+    #hire h2{
+        font-size: 20px;
+    }
+    .brands{
+        color: #fff;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .content button{
+        font-size: 12px;
+    }
+    .highRank{
+        top: -50px;
+        left: 115px;
+        width: 20%;
+    }
+    .userGen{
+        padding: 10;
+        display: grid;
+        grid-template-columns:1fr;
+        background-color: #f0f6fc;
+        gap: 50px;
+        align-items: center;
+    }
+    .userGen h2{
+        font-size: 20px;
+    }
+    .userGen p{
+        font-size: 12px;
+    }
+    .userGen img{
+        width: 100%;
+    }
+    .video{
+        padding: 10;
+        text-align: center;
+    }
+    .vid{
+        grid-template-columns:1fr;
+        gap: 20px;
+    }
+    .vid video{
+        width: 70%;
+    }
+    .video h2{
+        font-size: 20px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-left: 90px;
+        margin-bottom: 100px;
+        background-color: #fff;
+        border-radius: 20px;
+        position: relative;
+        width: 50%;
+    }
+    .container img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .container .check{
+        position: absolute;
+        bottom: -20px;
+        left: -2%;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+    .container p{
+        font-size: 12px;
+    }
+    .contain{
+        grid-template-columns:1fr;
+        gap: 20px;
+    }
+    .netsol{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 2px 2px 2px #a59e9e, -1px -1px 1px #a59e9e;
+        width: 100%;
+        padding: 10px;
+    }
+    .athena{
+        display: flex;
+        border-bottom: 2px solid gainsboro;
+        width: 100%;
+    }
+    .athena img{
+        width: 50px;
+    }
+    .athena h4{
+        font-size: 12px;
+    }
+    #list h4{
+        font-size: 12px;
+    }
+    #list p{
+        font-size: 12px;
+    }
+    .list{
+        padding: 5px 8px;
+        margin: 3 0;
+        border-radius: 20px;
+    }
+    #netsol{
+        display: flex;
+    }
+    #netsolEn{
+        position: relative;
+        right: 100;
+        bottom: 78;
+    }
+    .listAn{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .listAn div{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .listAn b{
+        font-size: 12px;
+    }
+    .listAn p{
+        font-size: 12px;
+    }
+    #choice{
+        padding: 10;
+        padding-bottom: 150;
+    }
+    .choice{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .choose{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px #a59e9e, -1px -1px 1px #a59e9e;
+    }
+    .choose b{
+        font-size: 12px;
+    }
+    .choose p{
+        font-size: 12px;
+    }
+    .choose i{
+        padding: 20px;
+    }
+    #choice h2{
+        font-size: 20px;
+    }
+    .custom{
+        padding: 30 10;
+        margin: 0 50;
+        top: -110px;
+        flex-direction: column;
+
+    }
+    .custom .free{
+        width: 100%;
+    }
+    .custom button{
+        padding: 8px 15px;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #4d9efc;
+        border:2px solid #0071f3;
+        margin-left: 0px;
+    }
+    .custom h2{
+        font-size: 20px;
+    }
+    .custom p{
+        font-size: 12px;
+    }
+    footer{
+        padding: 10;
+        gap: 10px;
+        grid-template-columns: 2fr 1fr;
+    }
+    .foot p{
+        font-size: 12px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    footer b{
+        font-size: 12px;
+    }
+    .foot h4{
+        font-size: 25px;
+    }
+    .socielLogo{
+        padding: 10;
+        flex-direction: column;
+    }
+    .socielLogo i{
+        padding: 10;
+    }
+    .socielLogo p{
+        font-size: 12px;
+    }
 }
