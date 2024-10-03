@@ -469,9 +469,13 @@ footer b{
     }
     .btn-an{
         font-size: 12px;
+        width: 80%;
+        height: 40px;
     }
     .btn-en{
         font-size: 12px;
+        width: 80%;
+        height: 40px;
     }
 
     .influencer{
@@ -508,6 +512,7 @@ footer b{
     #hire, #hireEn{
         background-color: #4d9efc;
         padding: 70 10;
+        text-align: center;
     }
     .milky{
         width: 50px;
@@ -538,6 +543,8 @@ footer b{
     }
     .content button{
         font-size: 12px;
+        width: 80%;
+        height: 40px;
     }
     .highRank{
         top: -50px;
@@ -699,6 +706,7 @@ footer b{
         padding: 30 10;
         margin: 0 50;
         top: -110px;
+        text-align: center;
         flex-direction: column;
 
     }
